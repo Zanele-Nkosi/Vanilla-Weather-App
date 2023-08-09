@@ -18,8 +18,8 @@ span a:hover {
 body {
   background-image: linear-gradient(
     to top,
-    #b013b0 0%,
-    #0dc9de 100%
+    lightblue 0%,
+    lightblue 100%
   ) !important;
   background-repeat: no-repeat;
   height: 100vh;
