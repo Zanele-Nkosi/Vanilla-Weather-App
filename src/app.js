@@ -64,6 +64,7 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
+// lodad fahrenheit
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
   celsiusLink.classList.remove("active");
@@ -76,7 +77,6 @@ function displayFahrenheitTemperature(event) {
 
 function displayCelsiusTemperature(event) {
   event.preventDefault();
-  // remove the active class on celsius link
   celsiusLink.classList.add("active");
   fahrenheitLink.classList.remove("active");
   let temperatureElement = document.querySelector("#temperature");
