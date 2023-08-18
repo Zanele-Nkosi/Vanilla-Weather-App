@@ -35,7 +35,7 @@
               </div>
               <div class="col-3">
                 <input
-                  type="submt"
+                  type="submit"
                   value="Search"
                   class="btn btn-primary w-100"
                 />
@@ -52,10 +52,13 @@
           <div class="row">
             <div class="col-6">
               <div class="clearfix weather-temperature">
-                <img src="" id="icon" class="float-left" />
+                <img src="" alt="clear" id="icon" class="float-left" />
                 <div class="float-left">
                   <strong id="temperature"></strong>
-                  <span class="units">&deg; C | &deg; <a href="#">F</a></span>
+                  <span class="units">
+                    &deg; <a href="#" id="celsius-link" class="active">C</a> |
+                    &deg; <a href="#" id="fahrenheit-link">F</a></span
+                  >
                 </div>
               </div>
             </div>
