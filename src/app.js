@@ -18,6 +18,7 @@ function formateDate(timestamp) {
     "Friday",
     "Saturday",
   ];
+
   let day = days[date.getDay()];
   return `${day} ${hours}:${minutes}`;
 }
@@ -116,7 +117,7 @@ function search(city) {
 function handleSubmit(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input").value;
-  search(city);
+  search(cityInputElement);
 }
 
 let form = document.querySelector("#search-form");
